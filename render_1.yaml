@@ -1,0 +1,10 @@
+services:
+  - type: web
+    name: instagram-automation-python
+    env: python
+    buildCommand: pip install -r requirements.txt
+    startCommand: python multi_site_automation.py
+    envVars:
+      - key: PYTHON_VERSION
+        value: 3.11.0
+
