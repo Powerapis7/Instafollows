@@ -364,7 +364,7 @@ class MultiSiteAutomation:
 app = Flask(__name__)
 
 # Configurações do usuário
-USERNAME = 'Luisa_sfd10'
+USERNAME = 'Luisa_sfd11'
 PASSWORD = 'LUANLEVY17'
 TARGET_USERNAME = 'comedor_di_primas'
 FOLLOWER_COUNT = 500
